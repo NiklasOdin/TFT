@@ -4,6 +4,44 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+.text {
+  font-size: 15px;
+}
+
+h3 {
+}
+
+.tabellcontent {
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 15px;
+  min-width: 500px;
+}
+.tabellcontent td {
+  padding: 5px 0px;
+}
+.tabell {
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 15px;
+  min-width: 400px;
+}
+.tabell thead tr {
+  background-color: rgb(6, 6, 138);
+  color: white;
+  text-align: left;
+  font-weight: bold;
+}
+.tabell td {
+  padding: 8px 20px;
+}
+.tabell tbody tr {
+  border-bottom: 1px solid lightgray;
+}
+.tabell tbody tr:nth-of-type(even) {
+  background-color: rgb(6, 6, 138);
+}
+
 .video {
   float: right;
   width: 100px;
@@ -28,9 +66,24 @@ body {
 nav {
   display: flex;
   justify-content: space-around;
+  align-items: center;
+  min-height: 8vh;
+  border-color: white;
 }
 
 .logo {
   color: rgb(207, 207, 207);
-  font-family: "";
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 30px;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: space-between;
+  width: 30%;
+}
+.nav-links a {
+  color: rgb(211, 209, 209);
+  text-decoration: none;
+  letter-spacing: 2px;
 }
