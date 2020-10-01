@@ -8,7 +8,29 @@ body {
   font-size: 15px;
 }
 
-h3 {
+.flexbox-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.flexbox-container {
+  display: flex;
+}
+
+.flexbox-item {
+  min-width: 120px;
+  min-height: 120px;
+  margin: 10px;
+  border: 3px solid #333;
+}
+
+.flexbox-item2 {
+  min-width: 100px;
+  min-height: 100px;
+  margin: 10px;
+  border: 3px solid #333;
 }
 
 .tabellcontent {
@@ -80,7 +102,7 @@ nav {
 .nav-links {
   display: flex;
   justify-content: space-between;
-  width: 30%;
+  width: 60%;
 }
 .nav-links a {
   color: rgb(211, 209, 209);
