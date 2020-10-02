@@ -4,10 +4,6 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.text {
-  font-size: 15px;
-}
-
 .flexbox-container {
   display: flex;
   justify-content: space-around;
@@ -15,20 +11,32 @@ body {
   flex-wrap: wrap;
 }
 
-.flexbox-container {
+.flexbox-container2 {
   display: flex;
+  margin-left: 60px;
+  flex-wrap: wrap;
 }
 
+.flexbox-container3 {
+  display: flex;
+
+  flex-wrap: wrap;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
 .flexbox-item {
   min-width: 120px;
-  min-height: 120px;
+  height: 120px;
   margin: 10px;
   border: 3px solid #333;
 }
 
 .flexbox-item2 {
-  min-width: 100px;
-  min-height: 100px;
+  min-width: 50px;
+  height: 50px;
   margin: 10px;
   border: 3px solid #333;
 }
@@ -108,4 +116,8 @@ nav {
   color: rgb(211, 209, 209);
   text-decoration: none;
   letter-spacing: 2px;
+}
+
+.nav-links li:hover {
+  background-color: #555;
 }
