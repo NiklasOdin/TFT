@@ -48,7 +48,7 @@ body {
   min-width: 500px;
 }
 .tabellcontent td {
-  padding: 5px 0px;
+  padding: 5px 1px;
 }
 .tabell {
   border-collapse: collapse;
@@ -73,10 +73,8 @@ body {
 }
 
 .video {
-  float: right;
   width: 100px;
   height: 50px;
-  margin-right: 500px;
   border-style: none;
 }
 
@@ -120,4 +118,11 @@ nav {
 
 .nav-links li:hover {
   background-color: #555;
+}
+
+.text {
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+  text-align: center;
 }
